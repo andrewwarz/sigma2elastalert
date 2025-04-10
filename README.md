@@ -26,3 +26,14 @@ This converter is still in development and has not been tested against all Sigma
 
 ```bash
 python sigma_to_elastalert.py -f path/to/sigma_rule.yml -o output_rule.yaml
+```
+
+### Directory Converstion
+
+```bash
+python sigma_to_elastalert.py -d path/to/sigma_rules_dir -o path/to/output_dir
+```
+
+### Output Location
+
+```|~/elastalert_rules/```
